@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quotes</title>
+    <style>
+    body{
+        background-color: orange;
+        margin: 0;
+        padding: 0;
+    }
+        .navigation{
+            background-color: black;
+            /* border-radius: 12px; */
+            border-color: blue;
+            padding: 10px ;
+        }
+        .navigation li{
+
+            float:left;
+            list-style: none;
+            padding:10px 10px;
+        }
+        
+        .navigation ul{
+            overflow:auto;
+        }
+        .navigation li a{
+            
+            text-decoration:none;
+            color:white;
+            margin:60px 60px;
+        }
+        .img1{
+            background-color:#3cdfff;
+            /* background-attachment: fixed; */
+            border: 2px dashed red;
+            
+        }
+        .img1 h2{
+            color:black;
+            text-align: center;
+            padding-top: -200px;
+        }
+        .img2 img{
+            float: right;
+            height:200px;
+            width:200px
+        }
+        .img2 pre{
+            padding-top: 100px;
+            margin-bottom: -100px;
+        }
+        .img2{
+            background-color: pink;
+            border: 2px solid blue;
+        }
+        .img3{
+            background-color: green;
+            border: 3px groove red;
+            padding-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="navigation">
+        <ul>
+            <li><a href="#" target="HOME">Home</a>
+            <li><a href="#Authors">Authors</a>
+            <li><a href="#Topics">Topics</a>
+            <li><a href="#quote of the day">Quote of The Day</a>
+        </ul>
+    </div>
+</header>
+<div class="img1">
+    <img src="/QUOTES/img1.jpg" alt="no img uploaded">
+    <pre>
+        <h2 style="margin-top:-250px;">
+            "Before   you    
+                judge  me,
+            Make sure you 
+                 are perfect!"  
+        </h2>
+    </div>
+    <div class="img2">
+        <img src="/QUOTES/img2.jpg" alt="no image uploaded">
+        <pre>
+            <h2 style="margin-top: -100px; margin-left: -100px;">
+                I  Don'T  Need  To 
+                Explain   Myself
+                Because  I  Know
+            <h1 style="font-size: 50px; margin-left: 50px; padding-bottom: -20px;" >I'M  RIGHT.</h1>     
+
+            </h2>
+        </pre>
+    </div>
+<div class="img3">
+    <img src="img3.jpg" alt=" img">
+    <pre>
+        <h2 style="margin-top:-268px; color:black; text-align: center;">
+            "Always  remember  that
+               you  are  absolutely
+                 unique. Just like
+                  everyone else." 
+                    ~ unknown 
+        </h2>
+    </pre>
+    </div>    
+</body>
+</html>
